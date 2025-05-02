@@ -12,6 +12,7 @@ class AvailabilityController extends Controller
     {
         return view('availability.index');
     }
+    
     public function check(Request $request)
     {
         $request->validate([
@@ -20,9 +21,7 @@ class AvailabilityController extends Controller
 
         $search = $request->input('search');
 
-        $products = Product::where('name', 'like', "%$search%")
-            ->orWhere('sku', 'like', "%$search%")
-            ->get();
+        $products = Product::where('name', 'like', "%$search%")->get();
 
         $storageAreas = StorageArea::where('name', 'like', "%$search%")
             ->orWhere('location', 'like', "%$search%")

@@ -24,7 +24,6 @@ class ProductController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'price' => 'required|numeric|min:0',
             'quantity' => 'required|integer|min:0',
             'storage_area_id' => 'required|exists:storage_areas,id'
         ]);
@@ -45,7 +44,6 @@ class ProductController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'price' => 'required|numeric|min:0',
             'quantity' => 'required|integer|min:0',
             'storage_area_id' => 'required|exists:storage_areas,id'
         ]);

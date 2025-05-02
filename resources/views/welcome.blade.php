@@ -52,6 +52,11 @@
             .hero {
                 text-align: center;
                 margin-bottom: 60px;
+                height: 80dvh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background: url('') no-repeat center center/cover;
             }
             .hero h1 {
                 font-size: 2.5rem;
@@ -121,7 +126,7 @@
         </style>
     </head>
     <body>
-        <header class="header">
+        <section class="header">
             <h1>StorageHub</h1>
             <div class="nav-links">
                 @auth
@@ -136,7 +141,7 @@
                     @endif
                 @endauth
             </div>
-        </header>
+        </section>
 
         <section class="hero">
             <h1>Manage Your Inventory with StorageHub</h1>
