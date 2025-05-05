@@ -85,7 +85,7 @@ StorageHub/
 ---
 
 ## **🖥️ Screenshots**  
-| ![Login Page](https://via.placeholder.com/400x200?text=Login+Page) | ![Dashboard](https://via.placeholder.com/400x200?text=Dashboard) |
+|[ ![Login Page](https://via.placeholder.com/400x200?text=Login+Page)](https://res.cloudinary.com/dyhlpbmru/image/upload/v1746456535/screencapture-127-0-0-1-8000-login-2025-05-05-15_44_36_tsnsbi.png) |[ ![Dashboard](https://via.placeholder.com/400x200?text=Dashboard)](https://res.cloudinary.com/dyhlpbmru/image/upload/v1746456534/screencapture-127-0-0-1-8000-dashboard-2025-05-05-15_44_15_u2zeib.png) |
 |-------------------------------------------------------------------|----------------------------------------------------------------|
 | *Login Page*                                                      | *Dashboard*                                                   |
 
