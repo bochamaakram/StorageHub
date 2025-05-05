@@ -106,7 +106,7 @@ This project is licensed under the **MIT License**.
 ---
 
 ## **📧 Contact**  
-- **Author:** [Youssef Ait Belfadil](https://github.com/YoussefAitBelfadil)  
+- **Author:** [bochamaakram](https://github.com/bochamaakram)  
 - **Email:** youssebelfdelf@gmail.com  
 
 ---
